@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="es">
+<html <?php language_attributes(); ?>>
 
 <head>
-  <meta charset="utf-8">
-  <title>Tema de Ejemplo</title>
+  <meta charset="<?php bloginfo('charset'); ?>">
+  <title><?php wp_title(' | ', true, 'right'); ?><?php bloginfo('name'); ?></title>
 
   <?php wp_head(); ?>
 
@@ -16,8 +16,8 @@
 
     <header id="main-header">
 
-      <h1 class="site-title">El nombre del sitio</h1>
-      <h2 class="site-description">En este lugar debe ir la descripción del sitio</h2>
+      <h1 class="site-title"><?php bloginfo('name'); ?></h1>
+      <h2 class="site-description"><?php bloginfo('description'); ?></h2>
 
     </header><!-- /#main-header -->
 
