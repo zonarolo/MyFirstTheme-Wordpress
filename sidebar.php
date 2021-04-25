@@ -4,7 +4,7 @@
     dynamic_sidebar('main_sidebar');
   } else { ?>
     <div class="widget">
-      <h3 class="widget-title"><?php _e('Buscar', 'apk'); ?></h3>
+      <h3 class="widget-title"><?php _e('', 'apk'); ?></h3>
       <?php get_search_form(); ?>
     </div>
   <?php } ?>
