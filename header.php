@@ -24,12 +24,7 @@
 
     <nav id="main-nav">
       <ul class="menu">
-        <li><a href="">Menú item 1</a></li>
-        <li><a href="">Menú item 2</a></li>
-        <li><a href="">Menú item 3</a></li>
-        <li><a href="">Menú item 4</a></li>
-        <li><a href="">Menú item 5</a></li>
-        <li><a href="">Menú item 6</a></li>
+        <?php wp_list_pages("title_li="); ?>
       </ul>
     </nav><!-- /#main-nav -->
 

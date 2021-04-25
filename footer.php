@@ -3,9 +3,9 @@
 
 		<footer id="main-footer">
 
-		  <div class="footer-copyright">
-		    &copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>
-		  </div><!-- /.footer-copyright -->
+			<div class="footer-copyright">
+				&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>
+			</div><!-- /.footer-copyright -->
 
 		</footer><!-- footer -->
 
